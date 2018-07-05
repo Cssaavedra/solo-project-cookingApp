@@ -1,0 +1,44 @@
+{
+  "name": "my-solo-project",
+  "version": "1.0.0",
+  "description": "cooking app which allows you to rate your recipes",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/starter.js",
+    "start:dev": "webpack-dev-server client/index.js",
+    "webpack": "webpack"
+  },
+  "author": "Chris S",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "node-fetch": "^2.1.2",
+    "pg": "^7.4.3",
+    "pg-hstore": "^2.3.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.3.1",
+    "redux": "^4.0.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "sequelize": "^4.38.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-install": "2.1.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "nodemon": "^1.17.5",
+    "sequelize-cli": "^4.0.0",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.14.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
