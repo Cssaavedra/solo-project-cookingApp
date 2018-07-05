@@ -23,10 +23,10 @@ app.post('/api', (req,res)=> {
     const dish = req.body.dish;
     let url = "http://www.recipepuppy.com/api/?";
      if (ingredients.length > 0){
-         url = url + 'i='+ ingredients.join(',');
+         url = url + 'i='+ ingredients.join(',')+'&';
      }
      if (dish.length > 0){
-         url = url + '&q=' + dish;
+         url = url + 'q=' + dish;
      }
      console.log('this is url: ', url);
     // console.log('ingredients: ', ingredients);
